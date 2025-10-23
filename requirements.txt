@@ -1,0 +1,2 @@
+﻿# No external dependencies required for basic password generator
+# Add any additional packages you need here
