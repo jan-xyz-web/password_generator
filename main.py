@@ -53,7 +53,6 @@ def collect_password_settings():
     include_lowercase = input("Include lowercase letters? (y/n): ") == "y"
     include_numbers = input("Include numbers? (y/n): ") == "y"
     include_symbols = input("Include symbols? (y/n): ") == "y"
-    include_special_characters = input("Include special characters? (y/n): ") == "y"
     include_spaces = input("Include spaces? (y/n): ") == "y"
     settings = {
         "length": length,
@@ -61,7 +60,6 @@ def collect_password_settings():
         "include_lowercase": include_lowercase,
         "include_numbers": include_numbers,
         "include_symbols": include_symbols,
-        "include_special_characters": include_special_characters,
         "include_spaces": include_spaces
     }
     return settings
